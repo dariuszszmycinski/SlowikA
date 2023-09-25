@@ -47,14 +47,14 @@ p{
     text-align: center;
 }
 .section-title span{
-    color: steelblue;
+    color: turquoise;
 }
 .cta{
     display: inline-block;
     padding: 10px 10px;
     color: white;
     background-color: transparent;
-    border: 2px solid steelblue;
+    border: 2px solid turquoise;
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
@@ -64,7 +64,7 @@ p{
 }
 .cta:hover{
     color: white;
-    background-color: steelblue;
+    background-color: turquoise;
 }
 .brand h1{
     font-size: 3rem;
@@ -72,7 +72,7 @@ p{
     color: white;
 }
 .brand h1 span{
-    color: steelblue;
+    color: turquoise;
 }
 
 /*Header section*/
@@ -86,7 +86,9 @@ p{
 }
 #header .header{
     min-height: 8vh;
+
     background-color: rgba(31, 30,30,0.24);
+    /*background-image: linear-gradient(60deg, darkslategray 0%, #485563 100%);*/
     transition: .3s ease background-color;
 }
 .header .nav-bar{
@@ -148,7 +150,7 @@ p{
     letter-spacing: initial;
 }
 #header .nav-list ul li:hover a{
-    color: steelblue;
+    color: turquoise;
 }
 #header .hamburger{
     height: 60px;
@@ -208,7 +210,7 @@ p{
 
 /*Hero Section*/
 #hero{
-    background: linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)), url("./img/KK2_8018.jpg") no-repeat top center;
+    background: linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)), url("./img/Joanna_Szmycinska_09.jpg") no-repeat top center;
     background-size: cover;
     position: relative;
     /*height: 200vw;*/
@@ -257,7 +259,7 @@ p{
     left: 0;
     height: 100%;
     width: 0;
-    background-color: steelblue;
+    background-color: turquoise;
     animation: text_reveal_box 1s ease;
     animation-delay: .3s;
 }
@@ -326,7 +328,7 @@ p{
     justify-content: center;
     flex-direction: column;
     background-color: lightsteelblue ;
-    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    background-image: linear-gradient(60deg, darkslategray 0%, #485563 100%);
     color: white;
 }
 #schedule .schedule-info h1{
@@ -362,6 +364,12 @@ p{
 }
 #schedule .schedule-item:hover .schedule-img img{
     transform: scale(1.1);
+}
+#schedule  h2{
+    padding-top: 30px;
+    font-size: 2.5rem;
+    font-weight: 500;
+    letter-spacing: .2rem;
 }
 /*End schedule section*/
 
@@ -399,7 +407,7 @@ p{
     position: relative;
     z-index: 1;
     overflow: hidden;
-    height: 600px;
+    /*height: 1000px;*/
 }
 #references .references-item::after{
     content: '';
@@ -408,7 +416,7 @@ p{
     top: 0;
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(60deg, #29323c, #485563 100%);
+    background-image: linear-gradient(60deg, darkslategrey, #485563 100%);
     opacity: .9;
     z-index: -1;
 }
@@ -426,6 +434,11 @@ p{
 #references .references-item p{
     color: white;
     text-align: left;
+}
+#references  h2{
+    font-size: 2.5rem;
+    font-weight: 500;
+    letter-spacing: .2rem;
 }
 
 /*End references Section*/
@@ -527,7 +540,7 @@ p{
     top: 19px;
     height: 98%;
     width: 98%;
-    border: 7px solid steelblue;
+    border: 7px solid turquoise;
     z-index: -1;
 }
 /*End About Section*/
@@ -575,7 +588,7 @@ p{
 
 /*Footer*/
 #footer{
-    background-image: linear-gradient(60deg, #29323c, #485563 100%);
+    background-image: linear-gradient(60deg, darkslategrey, #485563 100%);
 }
 #footer .footer{
     min-height: 200px;
@@ -641,7 +654,7 @@ p{
 }
 @keyframes text_reveal_name {
     100%{
-        color: steelblue;
+        color: turquoise;
         font-weight: 700;
     }
 }
@@ -731,7 +744,7 @@ p{
         top: 34px;
         height: 98%;
         width: 98%;
-        border: 10px solid steelblue;
+        border: 10px solid turquoise;
     }
     #about .col-right{
         text-align: left;
@@ -814,7 +827,7 @@ p{
         margin-top: 50px;
     }
     #references .references-item{
-        height: 400px;
+        /*height: 600px;*/
     }
     /*#references .references-bottom .references-item {*/
     /*    flex-basis: 22%;*/
