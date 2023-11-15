@@ -11,7 +11,8 @@ hamburger.addEventListener('click', ()=>{
 document.addEventListener('scroll',()=>{
     let scroll_position = window.scrollY;
     if (scroll_position > 150){
-        header.style.backgroundColor = "#29323c";
+        // kolor nagłówka
+        header.style.backgroundColor = "#008080";
     } else {
         header.style.backgroundColor = "transparent";
     }

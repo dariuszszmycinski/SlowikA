@@ -103,7 +103,8 @@ p{
 #header .nav-list ul{
     list-style: none;
     position: absolute;
-    background-color: rgb(31,30,30);
+    /*kolor rozwiniętego menu małego*/
+    background-color: teal;
     width: 100vw;
     height: 100vh;
     left: 100%;
@@ -139,6 +140,7 @@ p{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0);
+    /*kolor podświetlenia napisu mała lista*/
     color: rgba(240,248,255,0.021);
     font-size: 13rem;
     letter-spacing: 50px;
@@ -210,7 +212,7 @@ p{
 
 /*Hero Section*/
 #hero{
-    background: linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)), url("./img/Joanna_Szmycinska_09.jpg") no-repeat top center;
+    background: linear-gradient(rgba(0,0,0,0.40), rgba(0,0,0,0.40)), url("./img/Joanna_Szmycinska_09.jpg") no-repeat top center;
     background-size: cover;
     position: relative;
     /*height: 200vw;*/
@@ -328,7 +330,8 @@ p{
     justify-content: center;
     flex-direction: column;
     background-color: lightsteelblue ;
-    background-image: linear-gradient(60deg, darkslategray 0%, #485563 100%);
+    /*kolor za harmonogramem*/
+    background-image: linear-gradient(60deg, teal 0%, #485563 100%);
     color: white;
 }
 #schedule .schedule-info h1{
@@ -356,8 +359,9 @@ p{
     top: 0;
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-    opacity: .5;
+    /*kolor prześwitu przez obrazek*/
+    background-image: linear-gradient(60deg, teal 0%, #485563 100%);
+    opacity: .2;
 }
 #schedule .schedule-img img{
     transition: .3s ease transform;
@@ -416,7 +420,8 @@ p{
     top: 0;
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(60deg, darkslategrey, #485563 100%);
+    /*kolor za referencjami*/
+    background-image: linear-gradient(60deg, teal, #485563 100%);
     opacity: .9;
     z-index: -1;
 }
@@ -588,7 +593,7 @@ p{
 
 /*Footer*/
 #footer{
-    background-image: linear-gradient(60deg, darkslategrey, #485563 100%);
+    background-image: linear-gradient(60deg, teal, #485563 100%);
 }
 #footer .footer{
     min-height: 200px;
@@ -691,7 +696,7 @@ p{
         flex-direction: row-reverse;
     }
     #schedule .schedule-item{
-        height: 400px;
+        height: 500px;
         margin: 0;
         width: 100%;
         border-radius: 0;
